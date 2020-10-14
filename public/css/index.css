@@ -1,0 +1,56 @@
+.hourDiv{
+    border-radius: 5px;
+    background-color:rgb(5, 5, 54);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+.dayDiv{
+    border-radius: 5px;
+    background-color:rgb(70, 70, 189);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+.weekDiv{
+    width:100%;
+}
+
+body{
+    background-image: url("../images/mainBackground.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    background-color:white;
+    width:75%;
+    border-radius: 5px;
+}
+
+#currentDaySection{
+    background-image: url("../images/bordeaux.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    width:100%;
+}
+
+#weekDaysSection{
+    width:100%;
+}
+.imgWeather{
+    height:50%;
+    width:auto;
+}
+
+.imgWeatherDiv{
+    height:40%;
+    width:auto;
+}

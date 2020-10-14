@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/index.css">
+</head>
+<body>
+    <header>
+        <h1 class="text-light text-center mt-2">Météo du jour Bordeaux</h1>
+    </header>
+    <main class="d-flex flex-column align-items-center">
+        <section id="currentDaySection" class="pb-3 pt-2">
+            <h2 id="currentDay" class="text-right mr-4 mb-4"></h2>
+            <div id="currentDayDiv" class="d-flex justify-content-around"></div>
+        </section>
+        <section id="weekDaysSection">
+            <h2 class="mt-2 ml-4 mb-4">météo pour les 6 prochains jours</h2>
+            <div id="weekDiv" class="d-flex justify-content-around"></div>
+        </section>
+    </main>
+</body>
+<script src="public/js/api.js"></script>
+</html>
